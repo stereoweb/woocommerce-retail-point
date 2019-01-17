@@ -1,0 +1,9 @@
+# Application
+.DS_Store
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# Node modules
+node_modules/*

@@ -1,0 +1,20 @@
+{
+    "name": "stereo/woocommerce-retail-point",
+    "type": "wordpress-plugin",
+    "description": "A wordpress plugin for importing products from Retail Point to WooCommerce",
+    "keywords": ["wordpress","plugin","woocommerce","retail point", "rtp"],
+    "homepage": "https://www.stereo.ca/",
+    "license": "0BSD",
+    "authors": [
+        {
+            "name": "Stereo",
+            "email": "support@stereo.ca",
+            "homepage": "https://www.stereo.ca/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "stereo/rtp-xml-parser": "^1.0"
+    }
+}
