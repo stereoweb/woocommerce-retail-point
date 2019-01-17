@@ -1,2 +1,2 @@
 # WooCommerce Retail Point
-Wordpress WooCommerce plugin importing Retail Point products
+Wordpress WooCommerce plugin for importing Retail Point products
