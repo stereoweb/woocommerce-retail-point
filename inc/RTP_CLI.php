@@ -114,6 +114,17 @@ class RTP_CLI
         $count = $this->parser->products_count();
         WP_CLI::success('Products count: ' . $count);
     }
+
+    /**
+     * Import products, categories, tags
+     *
+     * @when after_wp_load
+     */
+    public function import()
+    {
+        $importer = new WC_RTP_Importer();
+        $importer->import();
+    }
 }
 
 WP_CLI::add_command('rtp', 'RTP_CLI');

@@ -15,6 +15,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "stereo/rtp-xml-parser": "^1.0"
+        "stereo/rtp-xml-parser": "^1.0",
+        "wpackagist-plugin/woocommerce": "^3.5"
     }
 }
